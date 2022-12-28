@@ -1,0 +1,37 @@
+.cross {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+.strip1 {
+    height: 3.5rem;
+    width: 0.8rem;
+    position: relative;
+    top: calc(50% - 1.75rem);
+    left: calc(50% - 0.4rem);
+    transform: rotate(45deg);
+    border-radius: 20px;
+    background-color: #2c8dff;
+}
+
+.strip1:hover {
+    box-shadow: 1px 2px 8px 2px #2c8dff;
+}
+
+.strip2 {
+    height: 3.5rem;
+    width: 0.8rem;
+    position: relative;
+    top: calc(-2.75rem);
+    left: calc(50% - 0.4rem);
+    transform: rotate(-45deg);
+    border-radius: 20px;
+    background-color: #2c8dff;
+}
+
+.strip2:hover {
+    box-shadow: 1px 2px 8px 2px #2c8dff;
+}

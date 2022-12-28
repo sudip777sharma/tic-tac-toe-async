@@ -1,0 +1,73 @@
+.searchUser_page {
+    background-color: rgb(255, 254, 234);
+    width: 100vw;
+    height: 100vh;
+    padding: 1.5rem;
+}
+
+.navBtn {
+    text-align: left;
+}
+
+.searchUserFormContainer {
+    width: 100vw;
+    height: 38rem;
+    text-align: left;
+}
+
+.searchUserTitle {
+    text-align: left;
+    line-height: 1;
+}
+
+.searchEmail {
+    margin-top: 3rem;
+}
+
+.Input {
+    margin-top: 1rem;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    width: 18rem;
+    height: 2rem;
+    padding: 10px;
+}
+
+.Input::-webkit-input-placeholder {
+    font-weight: normal;
+}
+
+.startGame {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2c94c;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.searchStatusBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchUser {
+    background-color: #f2c94c;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 10px;
+    margin: 1rem;
+}

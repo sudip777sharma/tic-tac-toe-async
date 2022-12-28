@@ -1,0 +1,47 @@
+.home {
+    background-color: white;
+    height: 100vh;
+    width: 19.8.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.home_title {}
+
+.home_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.home_register {
+    background-color: #2f80ed;
+    align-items: center;
+}
+
+.home_login {
+    background-color: #f2c94c;
+    align-items: center;
+}
+
+.home_btns {
+    width: 19.8.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.home_btn {
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    border: none;
+    outline: none;
+}

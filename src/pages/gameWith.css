@@ -1,0 +1,94 @@
+.gameWith_page {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBtn {
+    text-align: left;
+    width: 20rem;
+    padding: 2px;
+}
+
+.gameWithContainer {
+    height: 36.5rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameWithInfo {
+    line-height: 0.5;
+    text-align: left;
+    width: 20rem;
+}
+
+.cross {
+    transform: scale(1);
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.circle {
+    transform: scale(1);
+    position: relative;
+    left: 0;
+    top: 0;
+    border: 1px solid red;
+}
+
+.gameWithGridContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    height: 25.5rem;
+    width: 20rem;
+}
+
+.gameStatus {
+    height: 2.5rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe79e;
+}
+
+.grid {
+    height: 18rem;
+    width: 18rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    background-color: #ffe79e;
+}
+
+.cell {
+    height: 5.7rem;
+    width: 5.7rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitTurn {
+    margin-top: 2rem;
+    background-color: #f2c94c;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 10px;
+}
